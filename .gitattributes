@@ -1,0 +1,57 @@
+/st
+# Laravel 默认忽略的文件和目录
+
+# 依赖文件
+/vendor
+/node_modules
+
+# 环境配置文件
+.env
+.env.*.backup
+
+# 日志和缓存文件
+/storage/*.log
+/storage/*.key
+/storage/debugbar
+/storage/framework/*
+!storage/framework/.gitignore
+/storage/logs/*
+/storage/gov/*
+!storage/logs/.gitignore
+
+# 构建和 IDE 配置文件
+.DS_Store
+Thumbs.db
+.idea
+*.sublime-project
+*.sublime-workspace
+*.vscode
+*.phpstorm.meta.php
+.phpunit.result.cache
+# NPM/Yarn 依赖
+/node_modules/
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/public/build
+
+# Laravel Mix 和 Vite 相关
+/npm-debug.log
+/yarn-error.log
+/pnpm-debug.log
+/husky-debug.log
+/vite-error.log
+/.eslintcache
+/.styleci.yml
+/.phpunit.result.cache
+/.phpunit.cache
+/.php-cs-fixer.cache
+
+# 覆盖 .env 配置的 IDE 文件
+.env.local
+.env.development
+.env.production
+.env.testing
+
+# Laravel Sail（Docker 配置）
+/docker-compose.override.yml

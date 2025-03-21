@@ -1,0 +1,59 @@
+/* 基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* 表格样式 */
+.table-container {
+    overflow-x: auto;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+.custom-table th, .custom-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.custom-table th {
+    background: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+.custom-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.custom-table tr:hover {
+    background: #f1f1f1;
+}
+
+/* 强调 T2-f 列 */
+.custom-table .bold {
+    font-weight: bold;
+    color: #007BFF;
+}
